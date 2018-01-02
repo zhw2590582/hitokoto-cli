@@ -1,35 +1,30 @@
 {
-  "name": "hitokoto-cli",
-  "version": "1.0.1",
-  "description": "A Hitokoto Cli Tool",
-  "license": "MIT",
-  "repository": "zhw2590582/hitokoto-cli",
-  "authors": [
-    "Harvey Zack <laozhaochaguan@hotmail.com>"
-  ],
-  "bin": {
-    "hitokoto-cli": "cli.js"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [
-    "cli",
-    "hitokoto"
-  ],
-  "bugs": {
-    "url": "https://github.com/zhw2590582/hitokoto-cli/issues"
-  },
-  "homepage": "https://github.com/zhw2590582/hitokoto-cli#readme",
-  "devDependencies": {
-    "chalk": "^2.3.0",
-    "execa": "^0.8.0",
-    "inquirer": "^4.0.1",
-    "jest": "^22.0.4",
-    "meow": "^4.0.0",
-    "opn": "^5.1.0",
-    "ora": "^1.3.0",
-    "request": "^2.83.0"
-  }
+	"name": "hitokoto-cli",
+	"version": "1.0.1",
+	"description": "A Hitokoto Cli Tool",
+	"license": "MIT",
+	"repository": "zhw2590582/hitokoto-cli",
+	"authors": ["Harvey Zack <laozhaochaguan@hotmail.com>"],
+	"bin": {
+		"hitokoto-cli": "cli.js"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"keywords": ["cli", "hitokoto"],
+	"bugs": {
+		"url": "https://github.com/zhw2590582/hitokoto-cli/issues"
+	},
+	"homepage": "https://github.com/zhw2590582/hitokoto-cli#readme",
+	"devDependencies": {
+		"chalk": "^2.3.0",
+		"execa": "^0.8.0",
+		"inquirer": "^4.0.1",
+		"jest": "^22.0.4",
+		"meow": "^4.0.0",
+		"opn": "^5.1.0",
+		"ora": "^1.3.0",
+		"request": "^2.83.0"
+	}
 }
