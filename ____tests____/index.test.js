@@ -1,4 +1,4 @@
-import execa from 'execa';
+const execa = require('execa');
 
 test('Show random hitokoto', done => {
 	execa('./cli.js').then(result => {

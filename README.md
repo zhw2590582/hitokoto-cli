@@ -1,4 +1,4 @@
-# hitokoto-cli
+# hitokoto-cli [![Build Status](https://www.travis-ci.org/zhw2590582/hitokoto-cli.svg?branch=master)](https://www.travis-ci.org/zhw2590582/hitokoto-cli)
 > A Hitokoto Cli Tool （一言命令行工具）
 
 ## Install
