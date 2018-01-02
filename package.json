@@ -8,11 +8,10 @@
     "Harvey Zack <laozhaochaguan@hotmail.com>"
   ],
   "bin": {
-    "hitokoto": "cli.js"
+    "hitokoto-cli": "cli.js"
   },
   "main": "index.js",
   "scripts": {
-    "lint": "eslint cli.js index.js",
     "test": "jest"
   },
   "keywords": [
@@ -24,7 +23,6 @@
   },
   "homepage": "https://github.com/zhw2590582/hitokoto-cli#readme",
   "devDependencies": {
-    "eslint": "^4.14.0",
     "execa": "^0.8.0",
     "inquirer": "^4.0.1",
     "jest": "^22.0.4",
