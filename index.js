@@ -3,6 +3,7 @@ const ora = require('ora');
 const inquirer = require('inquirer');
 const opn = require('opn');
 const request = require('request');
+const chalk = require('chalk');
 const meow = require('meow');
 const homepage = meow().pkg.homepage;
 
@@ -22,7 +23,7 @@ let getHitokoto = url => {
     spinner.stop();
     if (!error && response.statusCode == 200) {
       const data = JSON.parse(body);
-      console.log(`${data.hitokoto}  ————  《${data.source}》`);
+      console.log(chalk.green('✔  ') + chalk.cyan(`${data.hitokoto}  ————  《${data.source}》`));
     } else {
       console.log(error);
     }
