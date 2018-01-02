@@ -1,7 +1,7 @@
 {
   "name": "hitokoto-cli",
-  "version": "1.0.0",
-  "description": "一言命令行工具",
+  "version": "1.0.1",
+  "description": "A Hitokoto Cli Tool",
   "license": "MIT",
   "repository": "zhw2590582/hitokoto-cli",
   "authors": [
@@ -26,6 +26,7 @@
   "devDependencies": {
     "chalk": "^2.3.0",
     "eslint": "^4.14.0",
+    "inquirer": "^4.0.1",
     "jest": "^22.0.4",
     "meow": "^4.0.0",
     "opn": "^5.1.0",
