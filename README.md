@@ -1,5 +1,5 @@
 # hitokoto-cli
-> A Hitokoto Cli Tool
+> A Hitokoto Cli Tool （一言命令行工具）
 
 ## Install
 

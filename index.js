@@ -23,7 +23,7 @@ let getHitokoto = url => {
     spinner.stop();
     if (!error && response.statusCode == 200) {
       const data = JSON.parse(body);
-      console.log(chalk.green('✔  ') + chalk.cyan(`${data.hitokoto}  ————  《${data.source}》`));
+      console.log(chalk.green('✔  ') + chalk.white(`${data.hitokoto}  ————  《${data.source}》`));
     } else {
       console.log(error);
     }
