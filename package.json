@@ -19,7 +19,7 @@
 	"homepage": "https://github.com/zhw2590582/hitokoto-cli#readme",
 	"devDependencies": {
 		"execa": "^0.9.0",
-		"jest": "^22.0.4"
+		"jest": "^23.3.0"
 	},
 	"dependencies": {
 		"chalk": "^2.3.0",
