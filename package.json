@@ -24,7 +24,7 @@
 	"dependencies": {
 		"chalk": "^3.0.0",
 		"inquirer": "^7.0.0",
-		"meow": "^5.0.0",
+		"meow": "^6.0.0",
 		"opn": "^6.0.0",
 		"ora": "^4.0.1",
 		"request": "^2.83.0"
