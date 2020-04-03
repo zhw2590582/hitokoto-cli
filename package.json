@@ -22,7 +22,7 @@
 		"jest": "^25.1.0"
 	},
 	"dependencies": {
-		"chalk": "^3.0.0",
+		"chalk": "^4.0.0",
 		"inquirer": "^7.0.0",
 		"meow": "^6.0.0",
 		"opn": "^6.0.0",
