@@ -23,7 +23,7 @@
 	},
 	"dependencies": {
 		"chalk": "^5.0.0",
-		"inquirer": "^8.0.0",
+		"inquirer": "^9.0.0",
 		"meow": "^10.0.0",
 		"opn": "^6.0.0",
 		"ora": "^6.0.0",
